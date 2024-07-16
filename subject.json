@@ -1,0 +1,10 @@
+[
+  {
+    "subjectCode": "CS50",
+    "subjectName": "Introduction to Computer Science"
+  },
+  {
+    "subjectCode": "CS50AI",
+    "subjectName": "Introduction to Computer Science with AI"
+  }
+]

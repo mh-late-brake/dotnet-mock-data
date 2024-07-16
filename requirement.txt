@@ -1,0 +1,112 @@
+Requirements:
+- when call function getMockData(numberOfSchedule), receive:
+    an array of Schedule: [Schedule * numberOfSchedule]
+    Each schedule will have this shape:
+    Schedule
+    {
+      semester: "SU24",
+      startTime: "1 Aug 2024 -> 5 Aug 2024" + slot,
+      endTime: "1 Aug 2024" + time,
+      examRoom: [examRoom * 15]
+    }
+      semester: doesn't change, always "SU24"
+      startTime + endTime: read "slots" from json file, then sequentialy generate slot from 1 Aug 2024
+
+      In function getSchedules(20), create 20 object with semester hard coded, then create 20 time couple to apply to those 20 object
+      get 20 time couple like this: getTimeCouple(20)
+      getTimeCouple(20) will return 20 distinct time
+
+      will need 20 * 15 examRoom, but some can be similar
+
+      examRoom: roomName + title can be reused across 20 schedules
+          -> title: doesn't change, always "FE" (need 1)
+          -> roomName: need 15 room names (need 15)
+          -> studentRoomSubject: 
+              - some student is similar across schedule, some is new
+                each schedule will have 10 new student -> need 200 students
+              - 5 subjects
+              But combine those 20 and 5 to create 
+
+
+Return value
+[Schedule * 20]
+
+Schedule
+{
+  Semester: "SU24",
+  startTime: "1 Aug 2024 -> 5 Aug 2024" + slot,
+  endTime: "1 Aug 2024" + time,
+  examRoom: [examRoom * 15]
+}
+
+examRoom
+{
+  roomName: "AL/BE/DE + 101->120 201->220 random in floor 1 -> 5, room number 01 -> 20" ==> Can be similar between Schedule
+  title: "FE", ==> doesn't change
+  student_room_subject: [StudentRoomSubject * 20]
+      student: a student will attent 4 test -> 15 * 20 * 20 / 4 => will need numSchedule * numExamRoom * numStudentPerRoom / studentPerTest student
+      subject:
+}
+
+examRoom
+{
+  roomName: "AL/BE/DE + 101->120 201->220 random in floor 1 -> 5, room number 01 -> 20",
+  title: "FE",
+  student_room_subject: [StudentRoomSubject * 20]
+}
+
+StudentRoomSubject
+{
+  student:
+    {
+      studentId: (HE + 18 + xxxx 4001 (+5) -> 9999)
+      fullName: lastName + remainName (tran 'van an')
+      email: an + lastName[0].toUpperCase() + van[0].toUpperCase() + studenId
+      citizenIdentity: 2017000000 (increase 1)
+      image: image
+    }
+  subject:
+    {
+      subjectCode: 
+      subjectName: 
+    }
+}
+
+// subject.json
+[
+    {
+      subjectCode: 
+      subjectName: 
+    }
+    {
+      subjectCode: 
+      subjectName: 
+    }
+]
+
+// name.json
+{
+  lastName: ["tran", "nguyen", "doan", ...], // min 10
+  remainName: ["van an", "van ban", "van can", ...] // min 30
+}
+
+
+// slot.json
+[
+  {
+    startTime: xxx,
+    endTime: xxx,
+  }
+  {
+    startTime: xxx,
+    endTime: xxx,
+  }
+  {
+    startTime: xxx,
+    endTime: xxx,
+  }
+  {
+    startTime: xxx,
+    endTime: xxx,
+  }
+]
