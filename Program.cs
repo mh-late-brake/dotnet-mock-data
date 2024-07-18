@@ -29,8 +29,9 @@ public class MockData
     private int _numOfPhysicalRoomAtCampus;
     private int _numOfStudentAcrossSchedules;
     private DateTime _scheduleStartDate;
+    private List<string> _placeNames;
 
-    public MockData(int numOfSchedule = 20, int numOfExamRoomsPerSchedule = 15, int numOfStudentsPerExamRoom = 20, int numOfSubjectPerStudent = 5, DateTime scheduleStartDate = default(DateTime), int numOfPhysicalRoomAtCampus = 30)
+    public MockData(int numOfSchedule = 20, int numOfExamRoomsPerSchedule = 15, int numOfStudentsPerExamRoom = 20, int numOfSubjectPerStudent = 5, DateTime scheduleStartDate = default(DateTime), int numOfPhysicalRoomAtCampus = 30, List<string>? placeName = null)
     {
         _numOfSchedules = numOfSchedule;
         _numOfExamRoomsPerSchedule = numOfExamRoomsPerSchedule;
@@ -44,6 +45,8 @@ public class MockData
         _names = GetNamesFromJson();
         _imageUrls = GetImageUrlsFromJson();
         _subjects = GetSubjectsFromJson();
+
+        _placeNames = placeName ?? new List<string> { "HCM", "HOA LAC", "DA NANG", "QUY NHON", "CAN THO" };
 
         if (numOfPhysicalRoomAtCampus < numOfExamRoomsPerSchedule)
         {
@@ -118,6 +121,7 @@ public class MockData
         for (int i = 0; i < numOfExamRoomsAcrossSchedules; ++i)
         {
             string roomName = roomNames[i % roomNames.Count];
+            string placeName = _placeNames[i % _placeNames.Count];
 
             List<StudentRoomSubject> stss = new List<StudentRoomSubject>();
 
@@ -129,7 +133,7 @@ public class MockData
                 stss.Add(sts);
             }
 
-            ExamRoom newExamRoom = new ExamRoom(roomName, title, stss);
+            ExamRoom newExamRoom = new ExamRoom(roomName, title, placeName, stss);
             examRooms.Add(newExamRoom);
         }
 
@@ -369,12 +373,14 @@ public class ExamRoom
 {
     public string RoomName { get; set; }
     public string Title { get; set; }
+    public string PlaceName { get; set; }
     public List<StudentRoomSubject> StudentRoomSubjects { get; set; }
 
-    public ExamRoom(string roomName, string title, List<StudentRoomSubject> studenRoomSubjects)
+    public ExamRoom(string roomName, string title, string placeName, List<StudentRoomSubject> studenRoomSubjects)
     {
         RoomName = roomName;
         Title = title;
+        PlaceName = placeName;
         StudentRoomSubjects = studenRoomSubjects;
     }
 }
