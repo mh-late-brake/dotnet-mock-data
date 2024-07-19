@@ -125,7 +125,7 @@ public class MockData
 
             List<StudentRoomSubject> stss = new List<StudentRoomSubject>();
 
-            for (int j = i; j < i + _numOfStudensPerExamRoom; ++j)
+            for (int j = i * _numOfStudensPerExamRoom; j < i * _numOfStudensPerExamRoom + _numOfStudensPerExamRoom; ++j)
             {
                 Student student = students[j % students.Count];
                 Subject subject = subjects[j % subjects.Count];
