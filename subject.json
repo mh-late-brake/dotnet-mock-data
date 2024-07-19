@@ -6,5 +6,37 @@
   {
     "subjectCode": "CS50AI",
     "subjectName": "Introduction to Computer Science with AI"
+  },
+  {
+    "subjectCode": "MAT101",
+    "subjectName": "Calculus I"
+  },
+  {
+    "subjectCode": "PHY101",
+    "subjectName": "General Physics I"
+  },
+  {
+    "subjectCode": "CHE101",
+    "subjectName": "General Chemistry"
+  },
+  {
+    "subjectCode": "BIO101",
+    "subjectName": "Introduction to Biology"
+  },
+  {
+    "subjectCode": "ENG101",
+    "subjectName": "English Composition"
+  },
+  {
+    "subjectCode": "HIS101",
+    "subjectName": "World History"
+  },
+  {
+    "subjectCode": "PSY101",
+    "subjectName": "Introduction to Psychology"
+  },
+  {
+    "subjectCode": "PSY101",
+    "subjectName": "Principles of Economics"
   }
 ]

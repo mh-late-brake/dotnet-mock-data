@@ -1,0 +1,369 @@
+[
+  {
+    "Semester": "SU24",
+    "StartTime": "2024-08-01T07:30:00",
+    "EndTime": "2024-08-01T09:00:00",
+    "ExamRooms": [
+      {
+        "RoomName": "BE509",
+        "Title": "FE",
+        "PlaceName": "HCM",
+        "StudentRoomSubjects": [
+          {
+            "Student": {
+              "StudentId": "HE184001",
+              "FullName": "Bùi Thảo Linh",
+              "Email": "LinhBTHE184001@fpt.edu.vn",
+              "CitizenIdentity": "2017000000",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSuQMRBJw_fOqsfhmKmfB1vdD-SNINIjy6Xg&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50",
+              "SubjectName": "Introduction to Computer Science"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184006",
+              "FullName": "Đoàn Minh Đức",
+              "Email": "ĐucĐMHE184006@fpt.edu.vn",
+              "CitizenIdentity": "2017000001",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9N87IXKlPexuWfdsLrjtxV9Dj-wXPuyZvg&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50AI",
+              "SubjectName": "Introduction to Computer Science with AI"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184011",
+              "FullName": "Đinh Quang Sáng",
+              "Email": "SangĐQHE184011@fpt.edu.vn",
+              "CitizenIdentity": "2017000002",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFl7GgHaIyyZ-BJfuz01qxoeK0S2kpDuSNnA&s"
+            },
+            "Subject": {
+              "SubjectCode": "MAT101",
+              "SubjectName": "Calculus I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184016",
+              "FullName": "Mai Văn Ba",
+              "Email": "BaMVHE184016@fpt.edu.vn",
+              "CitizenIdentity": "2017000003",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeh3_Zl5pb6om2Z-mXsUYmQn9VQsG40N5cng&s"
+            },
+            "Subject": {
+              "SubjectCode": "PHY101",
+              "SubjectName": "General Physics I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184021",
+              "FullName": "Đoàn Trung Trực",
+              "Email": "TrucĐTHE184021@fpt.edu.vn",
+              "CitizenIdentity": "2017000004",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMDMloLNGHqUBYLC76Szv-SWghmRpiSKWyg&s"
+            },
+            "Subject": {
+              "SubjectCode": "CHE101",
+              "SubjectName": "General Chemistry"
+            }
+          }
+        ]
+      },
+      {
+        "RoomName": "BE220",
+        "Title": "FE",
+        "PlaceName": "HOA LAC",
+        "StudentRoomSubjects": [
+          {
+            "Student": {
+              "StudentId": "HE184026",
+              "FullName": "Lý Trung Nghĩa",
+              "Email": "NghiaLTHE184026@fpt.edu.vn",
+              "CitizenIdentity": "2017000005",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7kWacR4n4ftuQ30oTVQc8OggWpe2Ars4cw&s"
+            },
+            "Subject": {
+              "SubjectCode": "BIO101",
+              "SubjectName": "Introduction to Biology"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184031",
+              "FullName": "Đinh Minh Đức",
+              "Email": "ĐucĐMHE184031@fpt.edu.vn",
+              "CitizenIdentity": "2017000006",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_neTFqSuQoG_dcOOsJ56Zcikn7Jxyk4AFw&s"
+            },
+            "Subject": {
+              "SubjectCode": "ENG101",
+              "SubjectName": "English Composition"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184036",
+              "FullName": "Hoàng Nhật Minh",
+              "Email": "MinhHNHE184036@fpt.edu.vn",
+              "CitizenIdentity": "2017000007",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUA6Ui8PJ8NZzlz82GCC-ABs2XPIoVWSQ2qQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "HIS101",
+              "SubjectName": "World History"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184041",
+              "FullName": "Hoàng Trung Nghĩa",
+              "Email": "NghiaHTHE184041@fpt.edu.vn",
+              "CitizenIdentity": "2017000008",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzj1-4fRbVjityZ9IqIXozZmkrvyAdmFvNuQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "PSY101",
+              "SubjectName": "Introduction to Psychology"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184046",
+              "FullName": "Đinh Bảo Ngọc",
+              "Email": "NgocĐBHE184046@fpt.edu.vn",
+              "CitizenIdentity": "2017000009",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmcFqWM5GTQU3tEgDKTyiQy-wwpKoSKkYYw&s"
+            },
+            "Subject": {
+              "SubjectCode": "PSY101",
+              "SubjectName": "Principles of Economics"
+            }
+          }
+        ]
+      },
+      {
+        "RoomName": "DE408",
+        "Title": "FE",
+        "PlaceName": "DA NANG",
+        "StudentRoomSubjects": [
+          {
+            "Student": {
+              "StudentId": "HE184051",
+              "FullName": "Trần Bảo Ngọc",
+              "Email": "NgocTBHE184051@fpt.edu.vn",
+              "CitizenIdentity": "2017000010",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIGV4vt7IaztboQVeCfRPhDVCqVpfMEOyFA&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50",
+              "SubjectName": "Introduction to Computer Science"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184056",
+              "FullName": "Đinh Thu Trang",
+              "Email": "TrangĐTHE184056@fpt.edu.vn",
+              "CitizenIdentity": "2017000011",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwc3q9isY6SjUDwQEd2KNklNQf-a5w6_ryQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50AI",
+              "SubjectName": "Introduction to Computer Science with AI"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184061",
+              "FullName": "Phạm Minh Đức",
+              "Email": "ĐucPMHE184061@fpt.edu.vn",
+              "CitizenIdentity": "2017000012",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN-k2ydHCMM5-6IqNutmoTQtxVAM4x18PORw&s"
+            },
+            "Subject": {
+              "SubjectCode": "MAT101",
+              "SubjectName": "Calculus I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184066",
+              "FullName": "Đoàn Gia Bảo",
+              "Email": "BaoĐGHE184066@fpt.edu.vn",
+              "CitizenIdentity": "2017000013",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjkMR22wgeUELpyhvonD2p81I7ZkwEaZ4eA&s"
+            },
+            "Subject": {
+              "SubjectCode": "PHY101",
+              "SubjectName": "General Physics I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184071",
+              "FullName": "Mai Bảo Ngọc",
+              "Email": "NgocMBHE184071@fpt.edu.vn",
+              "CitizenIdentity": "2017000014",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CNzod-Ij2pRUhGLzWJe-dthXDXPjqVjQxA&s"
+            },
+            "Subject": {
+              "SubjectCode": "CHE101",
+              "SubjectName": "General Chemistry"
+            }
+          }
+        ]
+      },
+      {
+        "RoomName": "BE403",
+        "Title": "FE",
+        "PlaceName": "QUY NHON",
+        "StudentRoomSubjects": [
+          {
+            "Student": {
+              "StudentId": "HE184076",
+              "FullName": "Phan Ngọc Hân",
+              "Email": "HanPNHE184076@fpt.edu.vn",
+              "CitizenIdentity": "2017000015",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqDil_9Ac3YkyV31Tpuq37KYemN0JmhIWQg&s"
+            },
+            "Subject": {
+              "SubjectCode": "BIO101",
+              "SubjectName": "Introduction to Biology"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184081",
+              "FullName": "Lê Trung Nghĩa",
+              "Email": "NghiaLTHE184081@fpt.edu.vn",
+              "CitizenIdentity": "2017000016",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcnLLsoqZxizcd4ZvPqvtUspebYt5KsVtjw&s"
+            },
+            "Subject": {
+              "SubjectCode": "ENG101",
+              "SubjectName": "English Composition"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184086",
+              "FullName": "Bùi Ngọc Hân",
+              "Email": "HanBNHE184086@fpt.edu.vn",
+              "CitizenIdentity": "2017000017",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT70rlC0f0TGUxoPVJg0PtMOZeKzpojfJvF8Q&s"
+            },
+            "Subject": {
+              "SubjectCode": "HIS101",
+              "SubjectName": "World History"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184091",
+              "FullName": "Bùi Quang Sáng",
+              "Email": "SangBQHE184091@fpt.edu.vn",
+              "CitizenIdentity": "2017000018",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcf5yb-t3V15Sdgiaa4YAnhElQGcEArKVerA&s"
+            },
+            "Subject": {
+              "SubjectCode": "PSY101",
+              "SubjectName": "Introduction to Psychology"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184096",
+              "FullName": "Phan Trung Nghĩa",
+              "Email": "NghiaPTHE184096@fpt.edu.vn",
+              "CitizenIdentity": "2017000019",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-WMOm5DTiay3_ts7geTnNelsZkFoWIwnjQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "PSY101",
+              "SubjectName": "Principles of Economics"
+            }
+          }
+        ]
+      },
+      {
+        "RoomName": "AL301",
+        "Title": "FE",
+        "PlaceName": "CAN THO",
+        "StudentRoomSubjects": [
+          {
+            "Student": {
+              "StudentId": "HE184101",
+              "FullName": "Mai Trung Nghĩa",
+              "Email": "NghiaMTHE184101@fpt.edu.vn",
+              "CitizenIdentity": "2017000020",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3G95N3pCfir3LVd_Oo9d5xsl-ghxnPHCVmQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50",
+              "SubjectName": "Introduction to Computer Science"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184106",
+              "FullName": "Phan Trung Đức",
+              "Email": "ĐucPTHE184106@fpt.edu.vn",
+              "CitizenIdentity": "2017000021",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdMaZbIbISnmQmPHytU51zxNxp3EIYfJOaQ&s"
+            },
+            "Subject": {
+              "SubjectCode": "CS50AI",
+              "SubjectName": "Introduction to Computer Science with AI"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184111",
+              "FullName": "Phan Kim Oanh",
+              "Email": "OanhPKHE184111@fpt.edu.vn",
+              "CitizenIdentity": "2017000022",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryXueJL-3cwSMPSvFJJFmzRkgHmjmdW8uKA&s"
+            },
+            "Subject": {
+              "SubjectCode": "MAT101",
+              "SubjectName": "Calculus I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184116",
+              "FullName": "Võ Trung Thành",
+              "Email": "ThanhVTHE184116@fpt.edu.vn",
+              "CitizenIdentity": "2017000023",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkL2BD6UcV7MnRPPUpr4K3djYBaFkPGebnA&s"
+            },
+            "Subject": {
+              "SubjectCode": "PHY101",
+              "SubjectName": "General Physics I"
+            }
+          },
+          {
+            "Student": {
+              "StudentId": "HE184121",
+              "FullName": "Phạm Ngọc Hân",
+              "Email": "HanPNHE184121@fpt.edu.vn",
+              "CitizenIdentity": "2017000024",
+              "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYeTdPsbCgKvGo5G89PzragbWaAqfmClwGWg&s"
+            },
+            "Subject": {
+              "SubjectCode": "CHE101",
+              "SubjectName": "General Chemistry"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

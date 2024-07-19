@@ -8,7 +8,7 @@ class Program
 {
     static void Main()
     {
-        MockData mockData = new MockData();
+        MockData mockData = new MockData(1, 5, 5, 1);
         List<Schedule> schedules = mockData.GenerateSchedules();
         string schedulesJson = JsonConvert.SerializeObject(schedules, Formatting.Indented);
         Console.WriteLine(schedulesJson);
